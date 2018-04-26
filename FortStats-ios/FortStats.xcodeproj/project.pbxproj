@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087A07C923E6E348D94C09BD /* Pods_FortStats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB4590862D038B2557A96B4 /* Pods_FortStats.framework */; };
+		D16EE5E52091025C00685527 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EE5E42091025C00685527 /* HomeViewController.swift */; };
+		D16EE5E72091037000685527 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EE5E62091037000685527 /* ProfileViewController.swift */; };
+		D16EE5EC2091539B00685527 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EE5EB2091539B00685527 /* NavigationBar.swift */; };
+		D16EE5EF2092456500685527 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EE5EE2092456500685527 /* TableViewCell.swift */; };
+		D16EE5F12092470300685527 /* WeaponsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EE5F02092470300685527 /* WeaponsViewController.swift */; };
+		D1D2EDF3208D87BF00EBFAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D2EDF2208D87BF00EBFAE6 /* AppDelegate.swift */; };
+		D1D2EDF8208D87BF00EBFAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D2EDF6208D87BF00EBFAE6 /* Main.storyboard */; };
+		D1D2EDFA208D87BF00EBFAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D2EDF9208D87BF00EBFAE6 /* Assets.xcassets */; };
+		D1D2EDFD208D87BF00EBFAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D2EDFB208D87BF00EBFAE6 /* LaunchScreen.storyboard */; };
+		D1ECE9BC208F26DB00E419A0 /* LuckiestGuy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1ECE9BB208F26DB00E419A0 /* LuckiestGuy.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F583B813339EC15D40733F1 /* Pods-FortStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortStats.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortStats/Pods-FortStats.release.xcconfig"; sourceTree = "<group>"; };
+		9BB4590862D038B2557A96B4 /* Pods_FortStats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortStats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16EE5E42091025C00685527 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D16EE5E62091037000685527 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D16EE5EB2091539B00685527 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		D16EE5EE2092456500685527 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D16EE5F02092470300685527 /* WeaponsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsViewController.swift; sourceTree = "<group>"; };
+		D1D2EDEF208D87BF00EBFAE6 /* FortStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D2EDF2208D87BF00EBFAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1D2EDF7208D87BF00EBFAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1D2EDF9208D87BF00EBFAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1D2EDFC208D87BF00EBFAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1D2EDFE208D87BF00EBFAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1ECE9BB208F26DB00E419A0 /* LuckiestGuy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LuckiestGuy.ttf; sourceTree = "<group>"; };
+		EEFC12386B61C57287DAD0B5 /* Pods-FortStats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortStats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortStats/Pods-FortStats.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1D2EDEC208D87BF00EBFAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A07C923E6E348D94C09BD /* Pods_FortStats.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5767B8EA01DD0F4194B354BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4590862D038B2557A96B4 /* Pods_FortStats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86AA3496E0F02BD79F217EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEFC12386B61C57287DAD0B5 /* Pods-FortStats.debug.xcconfig */,
+				8F583B813339EC15D40733F1 /* Pods-FortStats.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D16EE5E12091021100685527 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D16EE5E42091025C00685527 /* HomeViewController.swift */,
+				D16EE5E62091037000685527 /* ProfileViewController.swift */,
+				D16EE5F02092470300685527 /* WeaponsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D16EE5EA2091536B00685527 /* RoutingController */ = {
+			isa = PBXGroup;
+			children = (
+				D16EE5EB2091539B00685527 /* NavigationBar.swift */,
+			);
+			path = RoutingController;
+			sourceTree = "<group>";
+		};
+		D16EE5ED2092451A00685527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D16EE5EE2092456500685527 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1D2EDE6208D87BF00EBFAE6 = {
+			isa = PBXGroup;
+			children = (
+				D1ECE9BA208F25BA00E419A0 /* CustomFont */,
+				D1D2EDF1208D87BF00EBFAE6 /* FortStats */,
+				D1D2EDF0208D87BF00EBFAE6 /* Products */,
+				86AA3496E0F02BD79F217EBC /* Pods */,
+				5767B8EA01DD0F4194B354BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D2EDF0208D87BF00EBFAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D2EDEF208D87BF00EBFAE6 /* FortStats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D2EDF1208D87BF00EBFAE6 /* FortStats */ = {
+			isa = PBXGroup;
+			children = (
+				D16EE5ED2092451A00685527 /* View */,
+				D16EE5EA2091536B00685527 /* RoutingController */,
+				D16EE5E12091021100685527 /* ViewController */,
+				D1D2EDF2208D87BF00EBFAE6 /* AppDelegate.swift */,
+				D1D2EDF6208D87BF00EBFAE6 /* Main.storyboard */,
+				D1D2EDF9208D87BF00EBFAE6 /* Assets.xcassets */,
+				D1D2EDFB208D87BF00EBFAE6 /* LaunchScreen.storyboard */,
+				D1D2EDFE208D87BF00EBFAE6 /* Info.plist */,
+			);
+			path = FortStats;
+			sourceTree = "<group>";
+		};
+		D1ECE9BA208F25BA00E419A0 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				D1ECE9BB208F26DB00E419A0 /* LuckiestGuy.ttf */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1D2EDEE208D87BF00EBFAE6 /* FortStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D2EE01208D87BF00EBFAE6 /* Build configuration list for PBXNativeTarget "FortStats" */;
+			buildPhases = (
+				7FD9828AAACF0299CC261FBC /* [CP] Check Pods Manifest.lock */,
+				D1D2EDEB208D87BF00EBFAE6 /* Sources */,
+				D1D2EDEC208D87BF00EBFAE6 /* Frameworks */,
+				D1D2EDED208D87BF00EBFAE6 /* Resources */,
+				21BCF3E7063E3D6B28B5F9D9 /* [CP] Embed Pods Frameworks */,
+				9CE526DB16F867215B6105B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortStats;
+			productName = FortStats;
+			productReference = D1D2EDEF208D87BF00EBFAE6 /* FortStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1D2EDE7208D87BF00EBFAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michael Handria";
+				TargetAttributes = {
+					D1D2EDEE208D87BF00EBFAE6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1D2EDEA208D87BF00EBFAE6 /* Build configuration list for PBXProject "FortStats" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1D2EDE6208D87BF00EBFAE6;
+			productRefGroup = D1D2EDF0208D87BF00EBFAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D2EDEE208D87BF00EBFAE6 /* FortStats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1D2EDED208D87BF00EBFAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1ECE9BC208F26DB00E419A0 /* LuckiestGuy.ttf in Resources */,
+				D1D2EDFD208D87BF00EBFAE6 /* LaunchScreen.storyboard in Resources */,
+				D1D2EDFA208D87BF00EBFAE6 /* Assets.xcassets in Resources */,
+				D1D2EDF8208D87BF00EBFAE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21BCF3E7063E3D6B28B5F9D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortStats/Pods-FortStats-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APExtensions/APExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeyboardAvoidingView/KeyboardAvoidingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyboardAvoidingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortStats/Pods-FortStats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FD9828AAACF0299CC261FBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortStats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE526DB16F867215B6105B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortStats/Pods-FortStats-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1D2EDEB208D87BF00EBFAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16EE5EF2092456500685527 /* TableViewCell.swift in Sources */,
+				D16EE5E72091037000685527 /* ProfileViewController.swift in Sources */,
+				D1D2EDF3208D87BF00EBFAE6 /* AppDelegate.swift in Sources */,
+				D16EE5E52091025C00685527 /* HomeViewController.swift in Sources */,
+				D16EE5F12092470300685527 /* WeaponsViewController.swift in Sources */,
+				D16EE5EC2091539B00685527 /* NavigationBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1D2EDF6208D87BF00EBFAE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D2EDF7208D87BF00EBFAE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1D2EDFB208D87BF00EBFAE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D2EDFC208D87BF00EBFAE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1D2EDFF208D87BF00EBFAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1D2EE00208D87BF00EBFAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1D2EE02208D87BF00EBFAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFC12386B61C57287DAD0B5 /* Pods-FortStats.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UPA5YM3F22;
+				INFOPLIST_FILE = FortStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handria.FortStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1D2EE03208D87BF00EBFAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F583B813339EC15D40733F1 /* Pods-FortStats.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UPA5YM3F22;
+				INFOPLIST_FILE = FortStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handria.FortStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1D2EDEA208D87BF00EBFAE6 /* Build configuration list for PBXProject "FortStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D2EDFF208D87BF00EBFAE6 /* Debug */,
+				D1D2EE00208D87BF00EBFAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D2EE01208D87BF00EBFAE6 /* Build configuration list for PBXNativeTarget "FortStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D2EE02208D87BF00EBFAE6 /* Debug */,
+				D1D2EE03208D87BF00EBFAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1D2EDE7208D87BF00EBFAE6 /* Project object */;
+}

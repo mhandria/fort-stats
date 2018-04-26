@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.7.0)
+  - APExtensions/ViewState (4.5.0)
+  - KeyboardAvoidingView (2.2.4):
+    - APExtensions/ViewState (>= 4.5.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - KeyboardAvoidingView (~> 2.2)
+  - SwiftyJSON (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  APExtensions: fb4a458bdd8230f9c2c0c95927397a634e179872
+  KeyboardAvoidingView: 61a8338183ecd7b89d7d0b4e0ea373fdd5d8db5e
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 67e5db90a26ab4ee699bb38cd37f64dab4745708
+
+COCOAPODS: 1.4.0
